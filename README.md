@@ -10,7 +10,7 @@ For decryption :
 python fcrypt.py -d destination_private_key_filename sender_public_key_filename ciphertext_file output_plaintext_file
 
 
-The symmertric encryption used is AES , the encryption mode used i s CBC.The key size used is 32 bytes and iv is 16 bytes.
+The symmertric encryption used is AES , the encryption mode used is CBC.The key size used is 32 bytes and iv is 16 bytes.
 The Asymmetric encryption used is RSA.It is not textbook RSA so we have to pad the data in the end.
 First we generate the key and iv for the AES.
 Then we encrypt the data/file with AES using CBC mode.
